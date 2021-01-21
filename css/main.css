@@ -1,0 +1,77 @@
+.footer-info-sections{
+	height:300px;
+	padding:3%;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#hero-section{
+	background:url('../images/misc/background.jpg');
+	height:100vh;
+	background-position:center;
+	background-size:250%;
+	background-repeat:no-repeat;
+	}
+	#logo{
+		margin-left:4%;
+		width:30%;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#hero-section{
+	background:url('../images/misc/background.jpg');
+	height:100vh;
+	background-position:center;
+	background-size:250%;
+	background-repeat:no-repeat;
+	}
+	#logo{
+		margin-left:4%;
+		width:30%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#hero-section{
+	background:url('../images/misc/background.jpg');
+	height:100vh;
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	}
+	#logo{
+		margin-left:4%;width:10%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#hero-section{
+	background:url('../images/misc/background.jpg');
+	height:100vh;
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	}
+	#logo{
+		margin-left:4%;width:10%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#hero-section{
+	background:url('../images/misc/background.jpg');
+	height:100vh;
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	}
+	#logo{
+		margin-left:4%;
+		width:10%;
+	}
+} 
