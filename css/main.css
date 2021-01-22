@@ -2,7 +2,9 @@
 	height:300px;
 	padding:3%;
 }
-
+.social-media-icons{
+	color:#f55e1d;
+}
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	#hero-section{
