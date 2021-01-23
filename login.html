@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <link rel="icon" href="static/logo.jpg">
+    <title>Login | Espace Egalité-Genre</title>
+</head>
+
+<body>
+    <header class="container-fluid" style="padding-left: 0;">
+        <nav class="navbar navbar-expand-lg navbar-dark"
+            style="background-color:#380028;z-index:100;opacity:0.95;position:fixed;">
+            <a id="logo" class="navbar-brand text-light" href="index.html">
+                <img class="img-fluid" src="images/logo.png" /></a>
+            <button class="navbar-toggler" style="color:white;" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+
+
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="text-light text-left d-none d-lg-block"
+                    style="display:inline-block;width:70%;margin-left:10%;">
+
+                    <div class="expanded-menu-item">Egalité et Genre</div>
+                    <div class="expanded-menu-item">Nos Actions</div>
+                    <div class="expanded-menu-item">Participer</div>
+                    <div class="expanded-menu-item">Ressources</div>
+                    <div class="expanded-menu-item">A Propos</div>
+                    <div class="expanded-menu-item">Nouvelles</div>
+                    <div class="expanded-menu-item">Annuaire</div>
+
+
+
+
+                </div>
+                <div class="text-light d-none d-lg-block" style="display:inline-block;margin-left:5%;width:30%;">
+                    <div style="display:inline-block;margin-right:6%;">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div style="display:inline-block;" class="expanded-menu-item">
+                        <a href="login.html">
+                            <button style="font-size:80%;background-color:#f55e1d;" class="btn text-light rounded-pill">
+                                Member Login
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <ul class="nav d-block d-md-none">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Egalité et Genre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Lien</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Lien</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">lien</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mx-auto">
+                <div id="first">
+                    <div class="myform form shadow">
+                        <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1>Login</h1>
+                            </div>
+                        </div>
+                        <form action="" method="post" name="login">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Adresse Email</label>
+                                <input type="email" name="email" class="form-control" id="email"
+                                    aria-describedby="emailHelp" placeholder="Rentrez votre email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Mot de passe</label>
+                                <input type="password" name="password" id="password" class="form-control"
+                                    aria-describedby="emailHelp" placeholder="Rentrez votre mot de passe">
+                            </div>
+                            <div class="form-group">
+                                <p class="text-center">En vous inscrivant vous acceptez nos <br> <a href="#">Conditions
+                                        d'Utilisation</a></p>
+                            </div>
+                            <div class="col-md-12 text-center ">
+                                <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="login-or">
+                                    <hr class="hr-or">
+                                    <span class="span-or">ou</span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <p class="text-center">
+                                    <a href="javascript:void();" class="google btn mybtn"><i class="fa fa-google-plus">
+                                        </i> S'inscrire avec Google
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="form-group">
+                                <p class="text-center">Pas encore de compte? <a href="#" id="signup">Créez-en un ici</a>
+                                </p>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div id="second">
+                    <div class="myform form ">
+                        <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1>Signup</h1>
+                            </div>
+                        </div>
+                        <form action="#" name="registration">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Prénom</label>
+                                <input type="text" name="firstname" class="form-control" id="firstname"
+                                    aria-describedby="emailHelp" placeholder="Enter Firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nom</label>
+                                <input type="text" name="lastname" class="form-control" id="lastname"
+                                    aria-describedby="emailHelp" placeholder="Enter Lastname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Adresse Email</label>
+                                <input type="email" name="email" class="form-control" id="email"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Mot de passe</label>
+                                <input type="password" name="password" id="password" class="form-control"
+                                    aria-describedby="emailHelp" placeholder="Enter Password">
+                            </div>
+                            <div class="col-md-12 text-center mb-3">
+                                <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Faire Partie du groupe</button>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <p class="text-center"><a href="#" id="signin">Vous avez déjà un compte?</a></p>
+                                </div>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
